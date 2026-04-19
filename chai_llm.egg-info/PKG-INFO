@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: chai-llm
+Version: 0.1.0
+Summary: Token-efficient LLM prompting via Chinese compression
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: translate>=3.6
+Requires-Dist: openai>=1.0
+Requires-Dist: google-generativeai>=0.7
+Requires-Dist: anthropic>=0.25
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

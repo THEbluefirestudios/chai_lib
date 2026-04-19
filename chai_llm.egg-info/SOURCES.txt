@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+chai/__init__.py
+chai/core.py
+chai/exceptions.py
+chai/translators.py
+chai/providers/__init__.py
+chai/providers/anthropic.py
+chai/providers/google.py
+chai/providers/openai.py
+chai_llm.egg-info/PKG-INFO
+chai_llm.egg-info/SOURCES.txt
+chai_llm.egg-info/dependency_links.txt
+chai_llm.egg-info/requires.txt
+chai_llm.egg-info/top_level.txt
