@@ -15,7 +15,7 @@ pip install token-chai
 | Key | Provider | Default Model |
 |---|---|---|
 | `openai` | OpenAI | `gpt-4o` |
-| `google-genai` | Google AI | `gemini-2.0-flash` |
+| `google-genai` | Google AI | `gemini-2.5-flash` |
 | `claude` | Anthropic | `claude-sonnet-4-20250514` |
 
 ---
@@ -34,7 +34,7 @@ import chai
 chai.configure(
     ai_model="google-genai",
     api_key="your api key",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     response_lang="en",
 )
 
@@ -59,7 +59,7 @@ response = chai.get_response(
     prompt="Explain black holes in simple terms",
     ai_model="google-genai",
     api_key="your api key",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     response_lang="en",
 )
 print(response)
@@ -78,7 +78,7 @@ import chai
 chai.configure(
     ai_model="google-genai",
     api_key="your api key",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     response_lang="en",
 )
 
@@ -94,7 +94,7 @@ response = chai.get_response(
     prompt="What is the theory of relativity?",
     ai_model="google-genai",
     api_key="your api key.",
-    model="gemini-2.0-flash",
+    model="gemini-2.5-flash",
     response_lang="en",
 )
 print(response)
@@ -214,12 +214,6 @@ response = chai.get_response(
 )
 print(response)
 ```
-
----
-
-## Supported API Providers
-
-For now, chai only supports models from OpenAI, Google and Anthropic with a valid API key.
 
 ---
 
